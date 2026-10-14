@@ -10,8 +10,8 @@ Arkib Project claude.ai **"Moomoo Indicators"** — indikator tersuai Moomoo (Ma
 | `data/` | `dataset_S1`–`S4.csv` (431 saham Shariah, harian, Jan 2019 – Okt 2026) + `index_benchmark.csv` (SPY, QQQ) |
 | `registry/` | `QULLAMX.csv` — keputusan backtest enjin v1.2 |
 | `notes/` | Nota memori Project |
-| `indikator/` | Kod Mai Language terkini (`WSTAGE_harian.mai`) |
-| `laporan/` | Laporan ujian (`WSTAGE_ujian_2026-10-14.md`) |
+| `indikator/` | Kod Mai Language terkini (`WSTAGE_harian.mai`, `QULLAMX_harian.mai`) |
+| `laporan/` | Laporan ujian (`WSTAGE_ujian_2026-10-14.md`, `QULLAMX_refine_2026-10-14.md`) |
 | `ujian/` | Skrip simulasi Python; jalankan dari akar repo |
 
 ## Chat
@@ -21,7 +21,7 @@ Arkib Project claude.ai **"Moomoo Indicators"** — indikator tersuai Moomoo (Ma
 | `chats/01-minervini.md` | MINERVINI SEPA | Kod awal, belum diuji |
 | `chats/02-oliver.md` | KELLCYCLE (Oliver Kell) | Kod awal, belum diuji |
 | `chats/03-weinstein.md` | WSTAGE (Weinstein) | Kod akhir: `indikator/WSTAGE_harian.mai` (CERUN 40, GAGAL dibetulkan 14 Okt 2026); penapis trend sahaja |
-| `chats/04-qullamaggie.md` | QULLAMX (Qullamaggie) | Backtest: semua varian DITOLAK; EP sahaja berpotensi |
+| `chats/04-qullamaggie.md` | QULLAMX (Qullamaggie) | v2: `indikator/QULLAMX_harian.mai` (EP sahaja, trail SMA20, paparan lampu isyarat); 431 SIMPAN, subset 0/4 |
 
 ## Nota transkrip
 - Mesej yang hanya mengandungi tangkapan skrin ditanda _(tangkapan skrin / lampiran sahaja)_ — imej tidak dieksport.
