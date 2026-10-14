@@ -1,1 +1,2 @@
-ujian/wstage/*.pkl
+__pycache__/
+*.pkl
