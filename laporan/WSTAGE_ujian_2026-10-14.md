@@ -8,7 +8,7 @@ Kod akhir: `indikator/WSTAGE_harian.mai`. Skrip: `ujian/wstage/sim.py` (simulasi
 | `GAGAL` | `CLOSE<REF(HHV(HIGH,BASELEN),VOLWIN+1)` | `CLOSE<VALUEWHEN(BELI,REF(HHV(HIGH,BASELEN),1))` | Pepijat: rujukan tetap 21 bar hanya sama dengan paras breakout jika BUY tepat 20 bar lalu |
 | `BELIC` | `... AND MAPD>MAPJ AND ...` | dibuang | Ujian 2: tiada kesan konsisten |
 
-Disahkan dalam Moomoo (14 Okt 2026): kod diterima, `VALUEWHEN` berfungsi, BUY/SELL muncul pada MGNI, DV, ALAB.
+Disahkan dalam Moomoo (14 Okt 2026): kod diterima, `VALUEWHEN` berfungsi, isyarat BUY/SELL sepadan dengan simulasi (disemak pengguna).
 
 ## Kaedah
 431 saham (S1–S4), Feb 2020 – 2 Okt 2026, CERUN 40, SELL buku, kos 0.1% setiap belah. Masuk buka hari selepas BUY; keluar buka hari selepas SELL/GAGAL. Lebihan = pulangan dagangan − pulangan indeks sama rata 431 saham bagi tempoh sama. Selang 95% = bootstrap 2,000 kali, sampel semula ikut saham.
